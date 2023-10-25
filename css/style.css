@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(48, 44, 48);
+  background: linear-gradient(
+    176deg,
+    rgba(48, 44, 48, 1) 0%,
+    rgba(163, 176, 179, 1) 50%,
+    rgba(48, 44, 48, 1) 100%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  display: block;
+}
+
+.page-content {
+  max-width: 600px;
+  width: 90%;
+}
+
+
+.search-input {
+  width: 200px;
+  border: 0;
+  outline: 0;
+  flex: 1;
+}
+
+.search-btn {
+  color: #fff;
+  outline: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.weather-image {
+  width: 70px;
+  height: 70px;
+}
+
+.weather-details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem 0;
+}
+
+.first-part {
+  transform: scale(1.05);
+  border-radius: 10px;
+  background: rgb(28, 147, 223);
+  background: linear-gradient(
+    312deg,
+    rgba(28, 147, 223, 1) 0%,
+    rgba(134, 15, 131, 1) 100%
+  );
+  transition: transform 0.3s;
+  flex-grow: 1;
+}
+
+.first-part:hover {
+  transform: scale(1.07);
+}
+
+.second-part {
+  background-color: #222831;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.otherDaysImage {
+  width: 30px;
+  height: 30px;
+}
+
+.change-location-btn {
+  background: rgb(28, 147, 223);
+  background: linear-gradient(
+    312deg,
+    rgba(28, 147, 223, 1) 0%,
+    rgba(134, 15, 131, 1) 100%
+  );
+}
